@@ -1,0 +1,235 @@
+header div.logo-search {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    height: 300px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+header img.logo_img{
+    margin: 0 auto;
+    width: 100vmin;
+    max-width: max-content;
+}
+/* header img.side_img{
+    width:20%;
+    margin: 0 auto;
+} */
+header div.logo-search form input {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px 0 0 10px;
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+}
+
+header div.logo-search form input:focus {
+    outline: 2px solid lightgray;
+    outline-offset: none;
+}
+
+header div.logo-search form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+header div.logo-search form button {
+    background: rgb(0,70,161);
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+header div.logo-search form button:hover {
+    background: rgb(0,193,193);
+}
+
+
+
+
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;760&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.swiper {
+    width: 75%;
+    padding: 40px;
+    border-radius: 20px;
+    font-family: 'Cooper', 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #3067ff76;
+    background-image: url('../img/back_ground.png');
+}
+
+section .card .image {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 3px;
+    background: rgb(0,70,161);
+}
+
+section .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 350px;
+    margin: 20px 0;
+    box-shadow: 5px 4.8px 2.8px -20px rgba(0, 0, 0, 0.05), 27px 26px 22px -20px rgba(0, 0, 0, 0.1);
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    height: 28%;
+    width: 100%;
+    background-color: rgb(0,70,161);
+    border-radius: 20px 20px 0 0;
+}
+
+.card .card-content {
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.instructions {
+    margin-top: 15px;
+}
+
+ul {
+    margin-top: 15px;
+    list-style: inside;
+}
+
+.card .drink-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.drink-name h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.swiper-button-next {
+    color: rgb(0,70,161);
+    top: 75%;
+    /* padding-right: 50px; */
+}
+
+.swiper-button-prev {
+    color: rgb(0,70,161);
+    top: 75%;
+    /* padding-left: 50px; */
+}
+
+.swiper-pagination-bullet-active {
+    background: rgb(29, 112, 154);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    position: relative;
+}
+
+.swiper-button-prev:after {
+    font-weight: 700;
+}
+
+.swiper-button-next:after {
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 600px){
+
+    script.hidden {
+        display:hidden;
+    }
+
+    .swiper-button-next{
+        padding-right: 50px;
+    }
+    .swiper-button-prev{
+        padding-left: 50px;
+    }
+
+    .swiper{
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    header div.logo-search form input {
+        font-size: 1rem;
+    }
+    header div.logo-search form button {
+        font-size: 1rem;
+    }
+
+}
+@media screen and (min-width: 400px) and (max-width:860px) {
+    
+    header div.logo-search form input {
+        font-size: 1.2rem;
+    }
+    header div.logo-search form button {
+        font-size: 1.2rem;
+    }
+
+}
