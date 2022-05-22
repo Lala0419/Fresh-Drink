@@ -1,9 +1,9 @@
+
 header div.logo-search {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    height: 300px;
     padding: 20px 0;
     margin-bottom: 20px;
 }
@@ -12,10 +12,7 @@ header img.logo_img{
     width: 100vmin;
     max-width: max-content;
 }
-/* header img.side_img{
-    width:20%;
-    margin: 0 auto;
-} */
+
 header div.logo-search form input {
     background-color: white;
     padding: 10px;
@@ -25,8 +22,18 @@ header div.logo-search form input {
     font-size: 1.5rem;
     letter-spacing: .3rem;
 }
+header div.logo-search .letter {
+    margin-top: 30px;
+   width: 6rem;
+}
 
 header div.logo-search form input:focus {
+    outline: 2px solid lightgray;
+    outline-offset: none;
+}
+
+
+header div.logo-search .letter:focus {
     outline: 2px solid lightgray;
     outline-offset: none;
 }
@@ -51,12 +58,45 @@ header div.logo-search form button {
     border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
+header div.logo-search .firstLetter {
+    margin-top: 30px;
+}
 
 header div.logo-search form button:hover {
     background: rgb(0,193,193);
 }
 
+header div.logo-search form button.firstLetter{
+    background: rgb(255, 123, 0) ;
+}
+header div.logo-search form button.firstLetter:hover{
+    background: rgb(0,193,193) ;
+}
 
+header div.logo-search form button.random{
+    background: rgba(140, 255, 0, 0.614) ;
+}
+header div.logo-search form button.random:hover{
+    background: rgba(0,193,193) ;
+}
+
+
+header div.logo-search .random{
+    display: block;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px
+}
+
+div.container.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 /* Google Font Import - Poppins */
@@ -71,6 +111,12 @@ header div.logo-search form button:hover {
 }
 
 .swiper {
+    width: 75%;
+    padding: 40px;
+    border-radius: 20px;
+    font-family: 'Cooper', 'Times New Roman', Times, serif;
+}
+.swiper2 {
     width: 75%;
     padding: 40px;
     border-radius: 20px;
@@ -196,10 +242,7 @@ ul {
 
 @media screen and (min-width: 600px){
 
-    script.hidden {
-        display:hidden;
-    }
-
+    
     .swiper-button-next{
         padding-right: 50px;
     }
@@ -213,6 +256,10 @@ ul {
 
 }
 
+.hidden{
+   visibility: hidden;
+}
+
 @media screen and (max-width: 400px) {
     
     header div.logo-search form input {
@@ -221,6 +268,7 @@ ul {
     header div.logo-search form button {
         font-size: 1rem;
     }
+
 
 }
 @media screen and (min-width: 400px) and (max-width:860px) {

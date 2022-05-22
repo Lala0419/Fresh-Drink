@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', searchCocktail);
 
-document.querySelector('button').addEventListener('click', searchCocktail);
+document.querySelector('.search').addEventListener('click', searchCocktail);
 
-if(visualViewport<'680px'){
-	document.querySelector('.mobile').classList.add('hidden')
-}
+document.querySelector('.random').addEventListener('click',randomanizer)
+
+document.querySelector('.firstLetter').addEventListener('click',byFirstLetter)
+
+// for the regular seach using cocktail name
 
 function searchCocktail() {
 	const cocktail = document.querySelector('input').value;
@@ -26,6 +28,60 @@ function searchCocktail() {
 			alert(err);
 		});
 }
+
+
+// for seach using the first letter of the cocktail name
+
+function byFirstLetter(){
+
+	const letter = document.querySelector('.letter').value;
+	
+	resetDOM();
+
+	fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?f=${letter}`)
+	.then((res)=>res.json())
+	.then((data)=>{
+		const drinks = data.drinks;
+			console.log(drinks);
+
+			drinks.forEach((drink) => {
+				console.log(drink);
+				addToDOM(drink);
+			});	
+	})
+		.catch((err) => {
+			alert(err);	
+	})
+}
+
+
+
+// randomnizser for someone undecisive like me! 
+
+
+function randomanizer(){
+	
+	resetDOM();
+
+	fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
+	.then((res)=>res.json())
+	.then((data)=>{
+		const drinks = data.drinks;
+			console.log(drinks);
+
+			drinks.forEach((drink) => {
+				console.log(drink);
+				addToDOM(drink);
+			});	
+	})
+		.catch((err) => {
+			alert(err);	
+	})	
+}
+
+
+
+// to add more card if there is any
 
 function addToDOM(drink) {
 	const div = document.createElement('div');
@@ -56,6 +112,9 @@ function addToDOM(drink) {
 
 	document.querySelector('.swiper-wrapper').appendChild(div);
 }
+
+
+//to reset the dom
 
 function resetDOM() {
 	const cards = document.querySelector('.swiper-wrapper');

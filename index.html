@@ -39,8 +39,17 @@
             <!-- </div> -->
             <form id="form">
                 <div class="form-content">
-                    <!-- <h4>Go get your fresh drink!</h4> -->
-                    <input type="text" name="" value="" placeholder="Margarita..." /><button type="button" name="button">Search</button>
+                    <!-- button for search -->
+                    <div class='container center'>
+                    <input class="search" type="text" name="" value="" placeholder="Margarita..." /><button class="search"type="button" name="button">Search</button>
+                    </div>
+                    <!-- button for fisrt letter-->
+                    <div class='container center'>
+                    <input class='letter' type="text" name="" value="" placeholder="ABC" /><button class="firstLetter" type="button" name="button">Search by the first letter</button> 
+                    </div>
+
+                    <!-- button for random -->
+                    <button class="random" type="button" name="button">Don't know what you want? <br> Click here !!</button>
                 </div>
             </form>
         </div>
@@ -54,9 +63,9 @@
                
             </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next smallParts hidden"></div>
+        <div class="swiper-button-prev smallParts hidden"></div>
+        <div class="swiper-pagination smallParts"></div>
     </section>
 
     <!-- Swiper JS -->
@@ -65,7 +74,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
-<script>
+<!-- <script>
     var swiper = new Swiper('.mySwiper', {
         slidesPerView: 3,
         spaceBetween: 30,
@@ -81,11 +90,12 @@
             prevEl: '.swiper-button-prev',
         },
     });
-</script>
+</script> -->
 
 
-<div class="hidden">
-    <script class="hidden">
+
+    <script>
+
         var swiper = new Swiper('.mySwiper', {
             slidesPerView: 1,
             spaceBetween: 30,
@@ -96,14 +106,14 @@
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
         });
     </script>
 
-</div>
+
 
 </body>
 
