@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', searchCocktail);
 
-document.querySelector('.search').addEventListener('click', searchCocktail);
+document.querySelector('.searchName').addEventListener('click', searchCocktail);
 
 document.querySelector('.random').addEventListener('click',randomanizer)
 

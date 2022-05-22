@@ -29,13 +29,12 @@ header div.logo-search .letter {
 
 header div.logo-search form input:focus {
     outline: 2px solid lightgray;
-    outline-offset: none;
+   outline-style:solid;
 }
-
 
 header div.logo-search .letter:focus {
     outline: 2px solid lightgray;
-    outline-offset: none;
+    outline-style: solid;
 }
 
 header div.logo-search form {
