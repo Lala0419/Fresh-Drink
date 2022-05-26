@@ -5,7 +5,7 @@
 <div align="center">
   
   <a href='https://freshdrink.netlify.app'>
-	  <img src="https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink.gif" width="100%" />
+	  <img src="https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink_2.gif" width="100%" />
   </a>
 
 Easy app to help you choose which drink to make at your house party! 
@@ -15,7 +15,7 @@ Easy app to help you choose which drink to make at your house party!
 </div>
 
 <div
-<a href ='https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink.gif' />
+<a href ='https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink_2.gif' />
 </a>
 
 ## How It's Made:
