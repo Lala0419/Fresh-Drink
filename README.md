@@ -20,7 +20,7 @@ Easy app to help you choose which drink to make at your house party!
 
 ## How It's Made:
 
-This project was my first one using APIs. Created my own original image and logo to make it look unieque and fun! Also I added futures so users can have potions to choose from for various situations they might have.  
+This was my very first project using APIs. Created my own original image and logo to make it look unieque and fun! Asked around to see what type of futures would be useful, and added them accordingly. More options for various situations that users might have.
 
 
 
@@ -40,6 +40,7 @@ On this project, I learned the very basic about WebAPIs. The coneept of it and h
 * [swiper.js](https://swiperjs.com/)
 * [Font Awesome](https://fontawesome.com)
 * [Canva](https://www.canva.com/)
+* [TheCocktailDB](https://www.thecocktaildb.com/api.php)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
