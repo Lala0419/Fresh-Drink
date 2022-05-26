@@ -1,33 +1,52 @@
+<div id='top'></div>
+<h1>Fresh Drink </h1>
+<br>
+<br>
+<div align="center">
+  
+  <a href='https://freshdrink.netlify.app'>
+	  <img src="https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink.gif" width="100%" />
+  </a>
 
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+Easy app to help you choose which drink to make at your house party! 
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://freshdrink.netlify.app
 
-![alt tag](http://placecorgi.com/1200/650)
+</div>
+
+<div
+<a href ='https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink.gif' />
+</a>
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript
+This project was my first one using APIs. Created my own original image and logo to make it look unieque and fun! Also I added futures so users can have potions to choose from for various situations they might have.  
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
-## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+## Tech used:
+HTML, CSS, JavaScript
+
+
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+On this project, I learned the very basic about WebAPIs. The coneept of it and how and when to use it correctly. Find the right APIs that function and also to match with the project feature I wanted to add was hard at first. However it was a very good practice to get used to WebAPIs. Also I used a tool call [swiper.js](https://swiperjs.com/) and leanred so much of how to find and read the right codes, methods to use. 
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-**Palettable:** https://github.com/alecortega/palettable
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+* [swiper.js](https://swiperjs.com/)
+* [Font Awesome](https://fontawesome.com)
+* [Canva](https://www.canva.com/)
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+
 
 
 
