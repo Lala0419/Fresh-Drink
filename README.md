@@ -8,7 +8,7 @@
 	  <img src="https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink_2.gif" width="100%" />
   </a>
 
-Easy app to help you choose which drink to make gives you all the recipe!! 
+Easy app to help you choose which drink to make for you and your loved ones!! 
 
 **Link to project:** https://freshdrink.netlify.app
 
