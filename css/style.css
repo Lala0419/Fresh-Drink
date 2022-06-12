@@ -128,6 +128,17 @@ body {
     background-image: url('../img/back_ground.png');
 }
 
+.form-alert {
+    letter-spacing: var(--letterSpacing);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.form-alert strong {
+    color: rgb(238, 88, 8);
+    text-transform: capitalize;
+}
+
 section .card .image {
     height: 160px;
     width: 160px;

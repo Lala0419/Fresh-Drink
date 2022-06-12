@@ -1,3 +1,5 @@
+const formAlertDOM = document.querySelector(".form-alert")
+
 document.addEventListener('DOMContentLoaded', searchCocktail);
 
 document.querySelector('.searchName').addEventListener('click', searchCocktail);
@@ -25,7 +27,8 @@ function searchCocktail() {
 			});
 		})
 		.catch((err) => {
-			alert(err);
+			formAlertDOM.style.display="block"; 
+        	formAlertDOM.innerHTML = '<strong>No drinks found.</strong> <br> Please double check with the spelling or<br> if you are not sure about the spelling, <br> you can also search with just by the first letter below :)';
 		});
 }
 
@@ -50,7 +53,7 @@ function byFirstLetter(){
 			});	
 	})
 		.catch((err) => {
-			alert(err);	
+			alert(err)
 	})
 }
 
