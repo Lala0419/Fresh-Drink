@@ -87,7 +87,8 @@ header div.logo-search .random{
     font-size: 1.5rem;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 20px
+    margin-top: 20px;
+    color: rgb(0,70,161);
 }
 
 div.container.center{
