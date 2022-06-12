@@ -17,10 +17,10 @@ function searchCocktail() {
 		.then((res) => res.json())
 		.then((data) => {
 			const drinks = data.drinks;
-			console.log(drinks);
+			//console.log(drinks);
 
 			drinks.forEach((drink) => {
-				console.log(drink);
+				//console.log(drink);
 				addToDOM(drink);
 			});
 		})
@@ -42,10 +42,10 @@ function byFirstLetter(){
 	.then((res)=>res.json())
 	.then((data)=>{
 		const drinks = data.drinks;
-			console.log(drinks);
+			//console.log(drinks);
 
 			drinks.forEach((drink) => {
-				console.log(drink);
+				//console.log(drink);
 				addToDOM(drink);
 			});	
 	})
@@ -67,10 +67,10 @@ function randomanizer(){
 	.then((res)=>res.json())
 	.then((data)=>{
 		const drinks = data.drinks;
-			console.log(drinks);
+			//console.log(drinks);
 
 			drinks.forEach((drink) => {
-				console.log(drink);
+				//console.log(drink);
 				addToDOM(drink);
 			});	
 	})
