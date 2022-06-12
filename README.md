@@ -8,7 +8,7 @@
 	  <img src="https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink_2.gif" width="100%" />
   </a>
 
-Easy app to help you choose which drink to make at your house party! 
+Easy app to help you choose which drink to make gives you all the recipe!! 
 
 **Link to project:** https://freshdrink.netlify.app
 
@@ -18,20 +18,25 @@ Easy app to help you choose which drink to make at your house party!
 <a href ='https://github.com/Lala0419/Fresh-Drink/blob/master/fresh_drink_2.gif' />
 </a>
 
+## About The App/ How to use:
+
+This is a fun cocktail-maker that you can impress your friends at your house party! You can get the ingredients and instructions for the cocktail you want to make just by typing 1. the name of the cocktail/liquor, 2. the first letter of the name or if you or your friends can't decide what you want to make, there is a button for 3. randomizer!
+
+
 ## How It's Made:
 
-This was my very first project using APIs. Created my own original image and logo to make it look unieque and fun! Asked around to see what type of futures would be useful, and added them accordingly. More options for various situations that users might have.
+This app was my first ever attempt using APIs. I created my images such as the logo and the background to embellish the styling. Asked around to see what type of futures would be helpful, and added them accordingly—added more options for various situations that users might have.
 
 
-
-## Tech used:
+## Tech Used:
 HTML, CSS, JavaScript
 
 
 
 ## Lessons Learned:
 
-On this project, I learned the very basic about WebAPIs. The coneept of it and how and when to use it correctly. Find the right APIs that function and also to match with the project feature I wanted to add was hard at first. However it was a very good practice to get used to WebAPIs. Also I used a tool call [swiper.js](https://swiperjs.com/) and leanred so much of how to find and read the right codes, methods to use. 
+I learned the very basics about WebAPIs. The concept and how to use it correctly. I also re-learned a lot of CSS futures while I worked on this project. It was challenging to re-organize and read codes (that I had references from swiper.js) at first but I was able to adjust the parts to where I wanted to be. Finding the right APIs that are functioning and also match with the feature I wanted to add was hard at first. However, it was a very good practice to get used to WebAPIs. 
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -43,9 +48,6 @@ On this project, I learned the very basic about WebAPIs. The coneept of it and h
 * [TheCocktailDB](https://www.thecocktaildb.com/api.php)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 
 
 
