@@ -35,7 +35,7 @@ HTML, CSS, JavaScript
 
 ## Lessons Learned:
 
-I learned the very basics about WebAPIs. The concept and how to use it correctly. I also re-learned a lot of CSS futures while I worked on this project. It was challenging to re-organize and read codes (that I had references from swiper.js) at first but I was able to adjust the parts to where I wanted to be. Finding the right APIs that are functioning and also match with the feature I wanted to add was hard at first. However, it was a very good practice to get used to WebAPIs. 
+I definitely learned more about WebAPIs. The concept and how to use it correctly. I also re-learned a lot of CSS futures while I worked on this project. It was challenging to re-organize and read codes (that I had references from swiper.js) at first but I was able to adjust the parts to where I wanted to be. Finding the right APIs that are functioning and also match with the feature I wanted to add was hard at first. However, it was a very good practice to get used to WebAPIs. 
 
 
 <!-- ACKNOWLEDGMENTS -->
