@@ -10,7 +10,7 @@
 
 Easy app to help you choose which drink to make for you and your loved ones!! 
 
-**Link to project:** [Fresh-Drink](https://freshdrink.netlify.app)
+**Link to project:** [Fresh Drink](https://freshdrink.netlify.app)
 
 </div>
 
